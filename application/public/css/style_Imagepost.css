@@ -1,0 +1,204 @@
+
+body {
+    background-color: lightpink; 
+}
+
+
+
+
+legend {
+    text-align: center; 
+    font-size: 30px; 
+    padding: 30px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0); 
+    margin-left: 20px; 
+}
+
+
+.topTitle {
+    font-family: cursive;
+}
+
+img {
+    width: 60%; 
+    height: 60%; 
+}
+
+.navigationBar {
+    background-color: rgb(248, 160, 241);
+    padding: 20px;
+}
+.nav_options {   
+    text-align: center;   
+}
+
+
+
+#link_button1 , #link_button2, #link_button3, .link_2, .link_3, .link_1 {
+    color: lightgrey; 
+    background-color: purple; 
+    margin-bottom: 10px; 
+    border-radius: 2px;
+    padding: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+#link_button1:hover , #link_button2:hover, #link_button3:hover, .link_2:hover, .link_3:hover, .link_1:hover {
+    color: lightgrey; 
+    background-color: rgb(121, 70, 9); 
+    margin-bottom: 10px; 
+    border-radius: 2px;
+    padding: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.search_bar {
+    margin-top: 20px; 
+    text-align: center; 
+    padding: 20px; 
+
+}
+
+.search_input {
+    background-color: lightpink; 
+    padding: 5px; 
+    width: 80%; 
+    margin-left: 5%;
+    border-radius: 10px;
+}
+
+.search_button {
+    color: white; 
+    background-color: purple; 
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#flash-message {
+    position: fixed; 
+    left: 50%; 
+    top: 25%; 
+}
+
+#flash-message div {
+    text-align: center; 
+}
+
+
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 700px;
+    height: 600px;
+    background: #000;
+    margin-top: 12%;
+    margin-left: 15%; 
+    box-shadow: 0 25px 30px rgba(0, 0, 0, 2);
+}
+
+.card .image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.card .image img {
+    width: 100%;
+    height: 100%; 
+    transition: .5s;
+}
+
+
+.card:hover .image img {
+    opacity: .5;
+    transform: translateX(30%);
+}
+
+
+.card .details {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background: #ad03a5;
+    transition: .5s;
+    transform-origin: left;
+    transform: perspective(2000px) rotateY(-90deg);
+}
+.card:hover .details {
+    transform: perspective(2000px) rotateY(0deg);
+}
+
+
+.card .details .center {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.card .details .center h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+
+#comment-container {
+    width: 30%; 
+    height: 50%; 
+    background-color: rgb(206, 100, 206);
+    border-radius: 22px;
+}
+
+#comment-box-button {
+    background-color: purple; 
+    border-radius: 10px; 
+    color: white; 
+}
+
+#messages {
+    margin-left: 60px; 
+}
+
+.message-each {
+    color: rgb(26, 25, 25); 
+    margin-bottom: 10px; 
+}
+
+
+textarea {
+    border-color: purple; 
+    border-radius: 10px; 
+    margin-left: 10px; 
+    margin-top: 50px;  
+}
+
+
+
+

@@ -1,0 +1,19 @@
+<div class="grid">
+{{#each data}}
+    <div id="post-{{this.id}}" class="article">
+        <img id="wo" src="{{photopath}}">               
+        <div class="details">
+            <h4>{{this.title}}</h4>
+            <p>{{this.description}}</p>
+            <i>Created: </i>
+            <p>{{this.created}}</p>
+            <a href="/post/{{this.id}}" class="anchor-buttons">Post Details</a>
+        </div>
+    </div>
+{{/each}}
+</div>
+
+
+
+
+

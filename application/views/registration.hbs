@@ -1,0 +1,39 @@
+
+
+        <header>
+            <legend>User Registration</legend>
+        </header>
+
+
+        <form id="form-registrastion" method="POST" action="/users/registration" enctype="application/x-www-form-urlencoded">
+            <div class="container-1">
+                <label id="Message"></label>
+                <br />
+                <label class="usernameText" for="fusername2">username:</label>
+                <br />
+                <input type="text" id="username2" name="username" required>
+                <br />
+                <label class="emailText" for="femail">email:</label>
+                <br />
+                <input type="email" id="email1" name="email" required>
+                <br />
+                <label class="passwordText" for="fpassword2">password: </label>
+                <br />
+                <input type="password" id="password2" name="password" required>
+                <br />
+                <label class="cpasswordText" for="fconfirmpassword">Confirm password: </label>
+                <br />
+                <input type="password" id="password2Confirm" name="cpassword" required>
+                <br />
+                <label class="AgeVerifyText" for="fageVerify">Are you over age of 13?</p>
+                <input class="checkbox1" type="checkbox" id="ageVerify" name="ageVerify" unchecked required>
+                <br />
+                <a href="#">TOS and Privacy Rules</a>
+                <br />
+                <input class="checkbox2" type="checkbox" id="acceptRules" name="acceptRules" unchecked required>
+                <br/>
+                <input class="button1" type="submit" id="registrationSubmit" name="registrationSubmit"> 
+            </div>
+        </form>
+
+

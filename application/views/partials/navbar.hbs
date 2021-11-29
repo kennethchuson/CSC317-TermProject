@@ -1,0 +1,55 @@
+
+<!--
+<div class="navigationBar">
+        <div class="nav_options">
+            <a class="link_1" href="#home">HOME</a>
+            <a class="link_2" href="#login">LOG IN</a>
+            <a class="link_3" href="#register">REGISTER</a>
+            <a class="link_4" href="#postimage">UPLOAD IMAGE</a>
+            <a class="likn_5" href="#posts">POSTS</a>
+        </div>
+
+        <div class="search_bar">
+            <input class="search_input" type="text">
+            <input class="search_button" type="submit" value="GO 🔍">
+        </div>
+    </div>
+-->
+
+<div class="navigationBar">
+    <center><h1 class="topTitle">💓KEN DOLLY PHOTO💓</h1></center>
+    <div class="nav_options">
+        <div class="search_bar">
+        {{#if search}}
+           <form action="/search" id="search_bar" method="post">
+                <input class="search_input" id="stext" name="search" type="text" placeholder="search">
+                <input class="search_button" id="sbutton" type="submit" value="GO 🔍">
+            </form>
+        </div>
+        {{/if}}
+        <a id="link_button1" class="{{home}}" href="/">HOME</a>
+
+      <!--  <a id="link_button3" class="{{posts}}" href="./Imagepost">POSTS</a> -->
+
+        {{#if logged}}
+        <!--<form action="/users/logout" method="post" id="logout-form"></form>-->
+            <a id="link_button2" class="{{upload}}" href="/postimage">UPLOAD IMAGE</a>
+            <a class="link_1" id="logout-button" href="/">LOGOUT</a>
+        <!--</form>-->
+        {{else}}
+            <a class="link_2" href="./login">LOG IN</a>
+            <a class="link_3" href="./registration">REGISTER</a>
+        {{/if}}
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+

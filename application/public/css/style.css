@@ -1,0 +1,21 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+
+
+#flash-message {
+  position: fixed; 
+  left: 50%; 
+  top: 25%; 
+}
+
+#flash-message div {
+  text-align: center; 
+}

@@ -1,0 +1,110 @@
+
+body {
+    background-color: lightpink; 
+}
+
+legend {
+    font-size: 30px; 
+    text-align: center; 
+    padding: 30px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+label, p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0); 
+    margin-left: 20px; 
+}
+
+
+.container-3 {
+    background-color: rgb(251, 148, 255);
+    box-shadow: 0 25px 30px rgba(0, 0, 0, 0.582);
+    width: 50%;  
+    border-radius: 20px; 
+    margin: auto; 
+
+}
+
+input, textarea {
+    border-radius: 25px; 
+    background-color: rgb(170, 255, 223); 
+    padding: 5px; 
+    width: 80%; 
+    margin-left: 5%; 
+
+}
+
+.postImageSubmit {
+    background-color: purple; 
+    color: rgb(170, 255, 223);
+    margin: 20px; 
+    margin-left: 10%; 
+}
+
+.topTitle {
+    font-family: cursive;
+}
+
+
+.navigationBar {
+    background-color: rgb(248, 160, 241);
+    padding: 20px;
+}
+.nav_options {   
+    text-align: center;   
+}
+
+#link_button1 , #link_button2, #link_button3, .link_2, .link_3, .link_1 {
+    color: lightgrey; 
+    background-color: purple; 
+    margin-bottom: 10px; 
+    border-radius: 2px;
+    padding: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#link_button1:hover , #link_button2:hover, #link_button3:hover, .link_2:hover, .link_3:hover, .link_1:hover {
+    color: lightgrey; 
+    background-color: rgb(121, 70, 9); 
+    margin-bottom: 10px; 
+    border-radius: 2px;
+    padding: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+.search_bar {
+    margin-top: 20px; 
+    text-align: center; 
+    padding: 20px; 
+
+}
+
+.search_input {
+    background-color: lightpink; 
+}
+
+.search_button {
+    color: white; 
+    background-color: purple; 
+    border-radius: 10px;
+}
+
+
+
+
+#flash-message {
+    position: fixed; 
+    left: 50%; 
+    top: 25%; 
+}
+
+#flash-message div {
+    text-align: center; 
+}
+

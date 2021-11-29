@@ -1,0 +1,47 @@
+
+    <header>
+        <legend>Post Image</legend>
+    </header>
+
+   
+
+
+<form id="post-image" method="POST" enctype="multipart/form-data" action="/posts/createPost">
+    <div class="container-3">
+        <label for="FpostImageTitle1">Post Title: </label>
+        <br />
+        <input type="title" id="postImageTitle1" name="title" required>
+        <br />
+        <label for="FpostImageDescritiption1">Post Description: </label>
+        <br />
+        <textarea id="postImageDescription1" name="description" rows="4" cols="50" required></textarea>
+        <br />
+        <label for="avatar">Choose a picture:</label>
+        <br />
+        <input type="file" name="uploadImage" id="fileupload" value="fileupload" accept="image/*,.pdf" required>
+        <br />
+        <br />
+        <p>I agree to Acceptable Use Policy for uploading images.</p>
+        <input type="checkbox" id="acceptPostImage" name="acceptPostImage" value="accept" required>
+        <br/>
+        <input class="postImageSubmit" type="submit" id="fileupload">
+    </div>
+
+    
+</form>
+
+
+
+
+
+
+
+
+
+
+<!--
+
+
+    </body>
+</html>
+-->
