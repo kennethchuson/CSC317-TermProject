@@ -61,7 +61,7 @@
 
    <script>
     document.addEventListener('DOMContentLoaded', (event) => {
-        document.querySelectorAll('span[class=data-posted').forEach((postedDate) => {
+        document.querySelectorAll('span[class=data-posted]').forEach((postedDate) => {
             postedDate.textContent = new Date(postedDate.textContent).toLocaleString();
         });
     });

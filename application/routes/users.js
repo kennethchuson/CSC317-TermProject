@@ -28,9 +28,9 @@ router.get('/', function(req, res, next) {
 //localhost:3000/users/register
 
 
-router.post('/registration', [body('username').isLength({min: 3}).matches(/^[a-zA-Z]/), body('password').isLength({ min: 5 }).matches(/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/)], (req, res, next) => 
+router.post('/registration', [body('username').isLength({min: 3}).matches(/^[a-zA-Z]/)], (req, res, next) => 
 {
-    
+
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       res.send("error")
@@ -108,7 +108,7 @@ router.post('/registration', [body('username').isLength({min: 3}).matches(/^[a-z
 
 
 
-router.post('/login', [body('username').isLength({min: 3}).matches(/^[a-zA-Z]/), body('password').isLength({ min: 5 }).matches(/^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/)], (req, res, next) =>  {
+router.post('/login', [body('username').isLength({min: 3}).matches(/^[a-zA-Z]/)], (req, res, next) =>  {
 
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
